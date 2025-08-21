@@ -1,2 +1,2 @@
-# 01FASE_senai
-Repositório dos exercícios de logica de programação
+# Portugol_exercise
+Portugol programming logic repository
