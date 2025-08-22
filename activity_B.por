@@ -1,7 +1,5 @@
 programa {
   funcao inicio() {
-    // b) conta da cantina #1
-
     real contaDaCantina, cafe, coxinha, halls, doceDeLeite
     escreva ("\ndigite o preço do café: R$ ")
     leia (cafe)
