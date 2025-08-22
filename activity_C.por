@@ -1,7 +1,5 @@
 programa {
   funcao inicio() {
-    // c) média de nota
-
     real media, n1, n2, n3, n4 
     escreva ("\nqual a nota1?: ")
     leia (n1)
@@ -13,6 +11,5 @@ programa {
     leia (n4)
     media = (n1 + n2 + n3 + n4) / 4
     escreva ("média das 4 notas = " + media)
-
   }
 }
