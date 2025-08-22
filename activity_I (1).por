@@ -1,7 +1,5 @@
-programa {
+ programa {
   funcao inicio() {
-    // i) pouppança
-
     real poupanca, salario, moradia, agua, luz, internet, gasolina, netflix, telefone, outros
     escreva("\ndigite o valor de seu salario: R$ ")
     leia (salario)
@@ -23,6 +21,5 @@ programa {
     leia (outros)
     poupanca = salario - (moradia + agua + luz + internet + gasolina + netflix + telefone + outros)
     escreva ("sua poupança é de R$ " + poupanca)
-
   }
 }
