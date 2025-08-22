@@ -1,7 +1,5 @@
 programa {
   funcao inicio() {
-    // g) crítico2
-
     real critico, dano, bonus
     escreva ("\ndigite o valor do dano: " )
     leia (dano)
@@ -9,6 +7,5 @@ programa {
     leia (bonus)
     critico = dano * 1.5 + bonus
     escreva ("crítico + bonus = " + critico)
-
   }
 }
