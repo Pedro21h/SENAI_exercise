@@ -1,7 +1,5 @@
 programa {
   funcao inicio() {
-    // h) média de ponderada de duas notas
-
     real media, n1, n2, p1, p2
     escreva ("\ndigite a n1 = ")
     leia (n1)
@@ -13,6 +11,5 @@ programa {
     leia (p2)
     media = (n1 * p1 + n2 * p2) / (p1 + p2)
     escreva ("média ponderada de duas notas = " + media)
-
   }
 }
