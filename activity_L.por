@@ -1,8 +1,5 @@
 programa {
   funcao inicio() {
-    // l) café per capita #2
-    // aqui fiz em ml (tentei)
-
     real cafePerCapita, cafe_ml, alunos, extra
     escreva ("\ndigite o quantidade de alunos: ")
     leia (alunos)
@@ -12,6 +9,5 @@ programa {
     leia (extra)
     cafePerCapita = (cafe_ml + extra) / alunos
     escreva ("a quantidade total de café é de " + cafePerCapita + "ml por aluno.")
-
   }
 }
