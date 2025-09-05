@@ -1,2 +1,2 @@
-# Portugol_exercise
-Portugol programming logic repository
+# Senai_exercise
+Programming logic repository
