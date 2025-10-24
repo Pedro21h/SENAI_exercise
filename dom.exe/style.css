@@ -1,0 +1,14 @@
+button{
+    width: 250Spx;
+    border-radius: 5px; 
+    background-color: black;
+    color: aliceblue;
+}
+
+body{
+    text-align: center;
+}
+
+#btCadastrar{
+    color: aliceblue;
+}
