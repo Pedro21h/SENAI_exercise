@@ -7,17 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>Revisao</h1>
-        <label>Teste</label>
+    <div id="container">
+        <h1>Consumo</h1>
 
-        <input type = "text" id = "inputNome">
+        <label for="distancia">Distancia: </label>
+        <input id = "distancia" type="text">
+        <label for="combustivel">Combustivel: </label>
+        <input id = "combustivel" type="text">
 
-        <button onclick="executarTeste()">Clique Aqui!</button>
-        <div id = "resultado"></div>
+        <button onclick="calcular()" id="calcular">Calcular</button>
+        
+        <div id="resultado"></div>
+
     </div>
- 
-    <script src = "script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>

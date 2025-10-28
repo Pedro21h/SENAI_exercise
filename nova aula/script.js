@@ -1,8 +1,9 @@
-function executarTeste(){
-    let nome = document.getElementById("inputNome").value;
+function calcular(){
+    distancia = Number (document.getElementById("distancia").value)
 
-    document.getElementById("resultado").innerHTML = nome;
+    combustivel = Number (document.getElementById("combustivel").value)
+    
+    let consumo = Number (distancia/combustivel)
 
-    console.log(nome);
-
-};
+    document.getElementById("resultado").innerHTML = "o consumo foi de " + consumo.toFixed(3) + "ka/l"
+}
