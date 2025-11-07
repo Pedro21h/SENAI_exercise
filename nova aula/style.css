@@ -1,14 +1,16 @@
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: yellowgreen;
-}
-
-#container{
+#formContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background-color: gray;
-    height: 200px;
+    gap: 10px;
+
+    background-color: rebeccapurple;
+    padding: 10px;
+    
+}
+
+button:hover{
+    scale: 1.05;
 }

@@ -1,9 +1,46 @@
-function calcular(){
-    distancia = Number (document.getElementById("distancia").value)
 
-    combustivel = Number (document.getElementById("combustivel").value)
+// teste crud
+
+// const dinossauro = {
+//     nome: 'Rex',
+//     altura: '6'
+// }
+
+const dinossauros = []
+
+// dinossauros.push(dinossauro)
+
+// document.getElementById('dino').innerHTML = `Nome: ${dinossauros[0].nome}; Altura: ${dinossauros[0].altura}`
+
+function cadastrarDino(){
+    let nomeLido = document.getElementById('inputNome').value
+    let alturaLida = Number(document.getElementById('inputAltura').value)
+
+    const dino = {
+        nome: nomeLido,
+        altura: alturaLida
+    }
+    dinossauros.push(dino)
+
+    console.log(dinossauros);
     
-    let consumo = Number (distancia/combustivel)
+    limparForm()
+    alert("Dino cadastrado com sucesso!")
+    
+}
 
-    document.getElementById("resultado").innerHTML = "o consumo foi de " + consumo.toFixed(3) + "ka/l"
+function limparForm(){
+    document.getElementById('inputNome').value = ''
+    document.getElementById('inputAltura').value = ''
+    // document.getElementById('inputPesoOuMassa').value = ''
+    
+    document.getElementById('inputNome').focus()
+}
+
+function mostrarTodosDinos(){
+    for(let i=0; i<dinossauros.length; i++){
+        document.getElementById('listasDinos').innerHTML += `
+        Nome: ${dinossauro[i].nome} ${dinossauros[i].altura}
+        `
+    }
 }

@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>CRUD</title>
 </head>
 <body>
-    <div id="container">
-        <h1>Consumo</h1>
-
-        <label for="distancia">Distancia: </label>
-        <input id = "distancia" type="text">
-        <label for="combustivel">Combustivel: </label>
-        <input id = "combustivel" type="text">
-
-        <button onclick="calcular()" id="calcular">Calcular</button>
-        
-        <div id="resultado"></div>
-
+    <h1>CRUDino</h1>
+    <div id="formContainer">
+        <label for="">Nome</label>
+        <input id="inputNome" type="text">
+        <label for="">Altura</label>
+        <input id="inputAltura" type="number">
+        <button onclick="cadastrarDino()">Cadastrar</button>
     </div>
+    <hr>
+        <h1>Painel Dinos</h1>
+        <div id="painelDino">Lista Dinos</div>
+        <button onclick="mostrarTodosDinos()">Mostrar Dinos</button>
+    
+
     <script src="script.js"></script>
 </body>
 </html>
